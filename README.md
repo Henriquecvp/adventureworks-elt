@@ -1,1 +1,1 @@
-Meu projeto DBT para a transformaço do DW da AdventureWorks
+Meu projeto DBT para a transformação do DW da AdventureWorks
