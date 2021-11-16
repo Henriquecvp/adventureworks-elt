@@ -1,0 +1,27 @@
+northwind_shop:
+  target: dev
+  outputs: 
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: /home/henrique/Área de Trabalho/semear/indicium/heroic-overview-327516-af97ff1f0141.json
+      project: heroic-overview-327516
+      dataset: dbt_henrique
+      threads: 1
+      timeout_seconds: 300
+      location: US
+      priority: interactive
+
+adventureworks:
+  target: dev
+  outputs: 
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: /home/henrique/Área de Trabalho/semear/indicium/etl-adventureworks-d4da381ea00d.json
+      project: etl-adventureworks
+      dataset: dbt_henrique
+      threads: 1
+      timeout_seconds: 300
+      location: US
+      priority: interactive

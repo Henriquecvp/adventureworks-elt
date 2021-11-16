@@ -1,0 +1,45 @@
+version: 2
+
+sources:
+  - name: adventureworkselt
+    tables:
+      - name: address
+        description: Esta tabela contém informações sobre os cartões de creédito
+      
+      - name: creditcard
+        description: Esta tabela contém informações sobre os cartões de crédito
+
+      - name: customer
+        description: Esta tabela contém informações sobre os cliente
+
+      - name: person
+        description: Esta tabela contém informações sobre as pessoas
+
+      - name: product
+        description: Esta tabela contém informações sobre os produtos
+
+      - name: salesorderdetail
+        description: Esta tabela contém informações sobre as vendas
+
+      - name: salesorderheader
+        description: Esta tabela contém o cabeçalho das ordens de vendas
+
+      - name: salesperson
+        description: Esta tabela contém informações sobre os vendedores
+
+      - name: salesorderheadersalesreason 
+        description: Esta tabela contém o cabeçalho das razões das vendas
+
+      - name: salesreason 
+        description: Esta tabela contém informações sobre as razões das vendas
+
+      - name: stateprovince 
+        description: Esta tabela contém informações sobre os estados
+
+      - name: countryregion 
+        description: Esta tabela contém informações sobre os paises
+
+      - name: businessentitycontact 
+        description: Esta tabela contém informações sobre os contatos
+
+      
